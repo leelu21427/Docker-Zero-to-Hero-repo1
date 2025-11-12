@@ -13,9 +13,9 @@ RUN python3 -m venv venv1 && \
 source venv1/bin/activate && \
 pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 9000
+EXPOSE 7000
 
-CMD source venv1/bin/activate && python3 manage.py runserver 0.0.0.0:9000
+CMD source venv1/bin/activate && python3 manage.py runserver 0.0.0.0:7000
 
 
 
